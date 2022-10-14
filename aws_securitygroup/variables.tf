@@ -16,7 +16,7 @@ variable "public_subnet_cidrs" {
 }
 
 variable "vpc_id" {
-  value = aws_vpc.main.id
+  default = aws_vpc.main.id
 }
 
 
